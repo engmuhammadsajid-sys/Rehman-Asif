@@ -4,9 +4,9 @@
   "description": "Muhammad Rehman Asif personal portfolio",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js",
-    "build": "echo Static portfolio - no build step"
+    "start": "node init && node server.js",
+    "dev": "node init && node server.js",
+    "build": "node init && node scripts/build-public.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
