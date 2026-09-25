@@ -24,9 +24,18 @@ EMAIL_PASS=your-16-char-app-password
 CONTACT_TO=muhammadrehman3346@gmail.com
 ```
 
-Form submissions are emailed to `muhammadrehman3346@gmail.com`.
+## Deploy on Vercel
 
-## Update content
+1. Push this repo to GitHub and import it in Vercel.
+2. Set **Framework Preset** to **Other** (or leave blank).
+3. Leave **Build Command** and **Output Directory** empty (root has `index.html`).
+4. Add Environment Variables:
+   - `EMAIL_USER`
+   - `EMAIL_PASS`
+   - `CONTACT_TO` = `muhammadrehman3346@gmail.com`
+5. Redeploy.
+
+Contact form uses the serverless function at `/api/contact`.
 
 - Profile & sections: `index.html`
 - Resume PDF: `assets/Muhammad_Rehman_Asif_Resume.pdf`
