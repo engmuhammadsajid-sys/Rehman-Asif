@@ -1,5 +1,6 @@
 {
   "framework": null,
+  "outputDirectory": "public",
   "rewrites": [
     { "source": "/api/contact", "destination": "/api/contact" }
   ]

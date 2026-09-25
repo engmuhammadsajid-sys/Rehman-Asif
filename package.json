@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "build": "echo Static portfolio - no build step"
+    "build": "node scripts/build-public.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
